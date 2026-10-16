@@ -1,0 +1,24 @@
+{
+  "dataset": "FlyRank anonymized starter sample",
+  "total_pages": 30000,
+  "train_pages": 22885,
+  "test_pages": 7115,
+  "train_clients": 24,
+  "test_clients": 8,
+  "validation": "GroupShuffleSplit by client_id",
+  "random_state": 42,
+  "model": "Random Forest",
+  "primary_metric": "Precision@50",
+  "comparison": {
+    "Rule-based baseline": {
+      "Precision@10": 0.5,
+      "Precision@20": 0.5,
+      "Precision@50": 0.48
+    },
+    "Random Forest": {
+      "Precision@10": 0.6,
+      "Precision@20": 0.65,
+      "Precision@50": 0.7
+    }
+  }
+}

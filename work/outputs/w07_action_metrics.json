@@ -1,0 +1,15 @@
+{
+  "source": "Previously verified Week 7 results",
+  "validation": "Client-holdout",
+  "ranked_pages": 7115,
+  "precision_at_50": 0.7,
+  "top_50_correct": 35,
+  "top_50_false_positives": 15,
+  "reason_code_counts": {
+    "CHECK_DATA": 2684,
+    "REVIEW_DECLINE": 2027,
+    "REVIEW_CTR": 895,
+    "REVIEW_POSITION": 835,
+    "REVIEW_FRESHNESS": 674
+  }
+}
